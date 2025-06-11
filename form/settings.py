@@ -52,8 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware',
 ]
-# CORS_ALLOWED_ORIGINS = ['*'
-# ]
+CORS_ALLOWED_ORIGINS = ['https://gleaming-macaron-38c1d0.netlify.app/ ]
 ROOT_URLCONF = 'form.urls'
 
 TEMPLATES = [
